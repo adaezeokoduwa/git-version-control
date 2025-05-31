@@ -10,9 +10,9 @@ This project demonstrates a simple Git version control workflow using two develo
 2. They clone the project repository from a central source (GitHub).
    ```bash
    git clone https://github.com/adaezeokoduwa/git-version-control.git
-[Tom clone](./imgs/Tom%20clone.png)
+![Tom clone](./imgs/Tom%20clone.png)
 
-[jerry clone](./imgs/Jerry%20clone1.png)
+![jerry clone](./imgs/Jerry%20clone1.png)
 
    ## Tom and Jerry Start Working
 
@@ -42,8 +42,9 @@ git checkout -b update-navigation
 
 # Jerry
 git checkout -b add-contact-info
-[tom new branch](./imgs/Tom%20new%20branch.png)
-[jerry new branch](./imgs/jerry%20new%20branch.png)
+![tom new branch](./imgs/Tom%20new%20branch.png)
+
+![jerry new branch](./imgs/jerry%20new%20branch.png)
 
 ### 3. ✏️ Making Changes
 
@@ -56,12 +57,14 @@ Once their changes are complete, they stage and commit the updates with clear, d
 # Tom
 git add index.html
 git commit -m "added navigation bar"
-[tom makes changes](./imgs/tom%20make%20changes.png)
+
+![tom makes changes](./imgs/tom%20make%20changes.png)
 
 # Jerry
 git add index.html
 git commit -m "Added contact info"
-[jerry makes changes](./imgs/Jerry%20make%20changes.png)
+
+![jerry makes changes](./imgs/Jerry%20make%20changes.png)
 
 
 ## 🔀 Merging Changes
@@ -79,7 +82,8 @@ git push origin add-contact-info
 
 - **Tom** creates a **Pull Request (PR)** from the `update-navigation` branch to the `main` branch.
 - The team reviews **Tom’s PR** and merges it into the `main` branch after approval.
-[tom merged changes](./imgs/Tom%20merged.png)
+
+![tom merged changes](./imgs/Tom%20merged.png)
 
 
 ### Step 3: 🔄 Sync Jerry's Branch
@@ -99,4 +103,4 @@ git pull origin main
 git push origin add-contact-info
 
 ```
-[jerry merged changes](./imgs/jerry%20%20merged.png)
+![jerry merged changes](./imgs/jerry%20%20merged.png)
