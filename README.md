@@ -25,7 +25,9 @@ Tom and Jerry begin by pulling the latest version of the project from the remote
 This ensures they both have the most recent version of all files, especially `index.html`.
 
 ```bash
-git pull origin main
+git pull origin main 
+
+```
 
 ### 2. 🌿 Creating Feature Branches
 
@@ -71,7 +73,7 @@ After making and committing their changes locally, both Tom and Jerry push their
 git push origin update-navigation
 git push origin add-contact-info
 
-
+```
 ### Step 2: 📥 Creating Pull Requests
 
 - **Tom** creates a **Pull Request (PR)** from the `update-navigation` branch to the `main` branch.
@@ -87,7 +89,7 @@ After Tom's changes have been merged into the `main` branch, **Jerry** updates h
 git checkout add-contact-info
 git pull origin main
 
-
+```
 ### Step 4: ✅ Final Merge
 
 - **Jerry** pushes the updated branch to the remote:
